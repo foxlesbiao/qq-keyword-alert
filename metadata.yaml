@@ -1,5 +1,5 @@
 name: astrbot_plugin_qq_keyword_alert
-desc: 监控指定QQ群关键词，命中后私聊管理员通知
+desc: 用于监控指定 QQ 群消息，支持按群独立维护关键词、过滤词、监控开关和正则模式，命中后自动私聊通知管理员
 version: 1.1.0
-author: OpenClaw
+author: foxlesbiao
 repo: https://github.com/foxlesbiao/astrbot_plugin_qq_keyword_alert
