@@ -1,0 +1,35 @@
+{
+  "watch_groups": {
+    "type": "list",
+    "description": "要监控的QQ群号列表",
+    "hint": "多个群号用逗号分隔",
+    "default": []
+  },
+  "keywords": {
+    "type": "list",
+    "description": "命中关键词列表",
+    "hint": "多个关键词用逗号分隔",
+    "default": []
+  },
+  "exclude_keywords": {
+    "type": "list",
+    "description": "排除关键词列表",
+    "hint": "消息含这些内容时忽略",
+    "default": []
+  },
+  "notify_user_id": {
+    "type": "string",
+    "description": "命中后私聊通知的QQ号",
+    "default": ""
+  },
+  "case_sensitive": {
+    "type": "bool",
+    "description": "是否区分大小写",
+    "default": false
+  },
+  "cooldown_seconds": {
+    "type": "int",
+    "description": "相同内容去重冷却秒数",
+    "default": 30
+  }
+}

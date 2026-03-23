@@ -1,0 +1,5 @@
+name: qq-keyword-alert
+desc: 监控指定QQ群关键词，命中后私聊管理员通知
+version: 1.1.0
+author: OpenClaw
+repo: https://github.com/foxlesbiao/qq-keyword-alert
