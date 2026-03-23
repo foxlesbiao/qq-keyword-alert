@@ -1,4 +1,4 @@
-# qq-keyword-alert
+# astrbot_plugin_qq_keyword_alert
 
 AstrBot 插件。用于监听指定 QQ 群消息，命中关键词后向指定 QQ 私聊发送提醒。
 

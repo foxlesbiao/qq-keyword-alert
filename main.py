@@ -14,7 +14,7 @@ DEFAULT_RULES = {}
 DEFAULT_NOTIFY_QQ = ""
 
 
-@register("qq-keyword-alert", "OpenClaw", "监控指定QQ群关键词，命中后私聊管理员通知", "1.1.0")
+@register("astrbot_plugin_qq_keyword_alert", "OpenClaw", "监控指定QQ群关键词，命中后私聊管理员通知", "1.1.0")
 class QQKeywordAlert(Star):
     def __init__(self, context: Context, config: AstrBotConfig | None = None):
         super().__init__(context)
